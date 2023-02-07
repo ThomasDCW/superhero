@@ -16,7 +16,6 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     border: ${({ theme }) => theme.border};;
-
     transition: background 0.3s ease-in, color 0.3s ease-in;
   }
 `;
