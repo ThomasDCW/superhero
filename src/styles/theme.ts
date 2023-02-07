@@ -1,14 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const lightTheme = {
-  body: '#f1f1f1',
-  text: '#121620',
-  border: '#121620',
+  body: '#eeeeee',
+  text: '#1f397c',
+  border: '#1f397c',
 };
 export const darkTheme = {
-  body: '#121620',
-  text: '#f1f1f1',
-  border: '#f1f1f1',
+  body: '#1b2130',
+  text: '#eeeeee',
+  border: '#eeeeee',
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     border: ${({ theme }) => theme.border};;
-    transition: background 0.2s ease-in, color 0.2s ease-in;
+
+    transition: background 0.3s ease-in, color 0.3s ease-in;
   }
 `;

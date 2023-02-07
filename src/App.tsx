@@ -1,10 +1,9 @@
-import ThemeButton from './components/ThemeButton';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className='App'>
-      <ThemeButton />
-      <p>COUCOU</p>
+      <Header />
     </div>
   );
 }
