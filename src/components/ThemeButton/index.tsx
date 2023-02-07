@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { darkTheme, GlobalStyles, lightTheme } from '../../styles/Theme';
+import { darkTheme, GlobalStyles, lightTheme } from '../../styles/theme';
 import SButton from './style';
 
 export default function ThemeButton() {
