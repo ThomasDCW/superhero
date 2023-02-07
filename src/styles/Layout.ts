@@ -4,7 +4,8 @@ export default styled.div`
   font-family: 'Poppins', sans-serif;
 
   h1 {
-    font-size: 30px;
+    font-size: 42px;
+    margin: 16px;
   }
 
   h2 {
