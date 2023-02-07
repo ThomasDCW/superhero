@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Reset } from 'styled-reset';
 import App from './App';
-import Layout from './styles/Layout';
+import Layout from './styles/layout';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Layout>

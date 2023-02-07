@@ -1,5 +1,4 @@
 import ThemeButton from './components/ThemeButton';
-import { GlobalStyles } from './styles/theme';
 
 function App() {
   return (

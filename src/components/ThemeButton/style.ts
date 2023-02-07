@@ -7,9 +7,12 @@ export default styled.div`
   button {
     cursor: pointer;
     margin: 8px;
-    padding: 1em;
+    padding: 1.2em;
     background: transparent;
     border: ${(props) => props.theme.border} 3px solid;
-    border-radius: 4px;
+    border-radius: 8px;
+    span {
+      font-size: 1.6em;
+    }
   }
 `;
